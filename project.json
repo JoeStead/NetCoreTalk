@@ -1,19 +1,27 @@
 {
-  "version": "1.0.0-*",
-  "buildOptions": {
-    "debugType": "portable",
-    "emitEntryPoint": true
-  },
-  "dependencies": {},
-  "frameworks": {
-    "netcoreapp1.0": {
-      "dependencies": {
-        "Microsoft.NETCore.App": {
-          "type": "platform",
-          "version": "1.0.1"
+    "version": "1.0.0-*",
+    "buildOptions": {
+        "emitEntryPoint": true
+    },
+    "runtimes": {
+        "osx.10.11-x64": {}
+    },
+    "frameworks": {
+        "netcoreapp1.0": {
+            "dependencies": {
+                "Microsoft.AspNetCore.Hosting": "1.0.0",
+                "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
+                "Microsoft.AspNetCore.Owin": "1.0.0",
+                "Microsoft.NETCore.App": {
+                    "version": "1.0.1"
+                },
+                "Nancy": "2.0.0-pre1779",
+                "Nancy.Validation.FluentValidation": {
+                    "target": "package",
+                    "version": "2.0.0-barneyrubble"
+                },
+                "Nancy.Bootstrappers.Autofac": "2.0.0-Pre458"
+            }
         }
-      },
-      "imports": "dnxcore50"
     }
-  }
 }

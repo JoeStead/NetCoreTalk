@@ -15,7 +15,7 @@ namespace netcoretalk.Features.Home
 
         private dynamic GetHome(dynamic args)
         {
-            return this.nameGenerator.GetName();
+            return Negotiate.WithModel(this.nameGenerator.GetName());
         }
     }
 }

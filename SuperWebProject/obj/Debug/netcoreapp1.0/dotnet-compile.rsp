@@ -132,4 +132,6 @@
 --reference:/Users/joe/.nuget/packages/System.Xml.XDocument/4.0.11/ref/netstandard1.3/System.Xml.XDocument.dll
 --reference:/Users/joe/.nuget/packages/System.Xml.XmlSerializer/4.0.11/ref/netstandard1.3/System.Xml.XmlSerializer.dll
 /Users/joe/dev/netcoretalk/Program.cs
+/Users/joe/dev/netcoretalk/Features/Home/HomeModule.cs
+/Users/joe/dev/netcoretalk/Features/Home/NameGenerator.cs
 /Users/joe/dev/netcoretalk/Startup/Startup.cs
